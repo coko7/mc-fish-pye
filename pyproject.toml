@@ -1,5 +1,5 @@
 [project]
-name = "mc-fish-pye"
+name = "mc_fish_pye"
 version = "0.1.0"
 description = "AFK auto-fishing script for Minecraft using Python and OpenCV"
 authors = [{ name = "Coko", email = "91132775+Coko7@users.noreply.github.com" }]
@@ -11,6 +11,7 @@ dependencies = [
   "numpy (>=2.4.4,<3.0.0)",
   "pyautogui (>=0.9.54,<0.10.0)",
   "keyboard (>=0.13.5,<0.14.0)",
+  "pynput (>=1.8.1,<2.0.0)",
 ]
 
 
