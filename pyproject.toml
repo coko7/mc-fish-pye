@@ -1,0 +1,19 @@
+[project]
+name = "mc-fish-pye"
+version = "0.1.0"
+description = "AFK auto-fishing script for Minecraft using Python and OpenCV"
+authors = [{ name = "Coko", email = "91132775+Coko7@users.noreply.github.com" }]
+license = "GPL-3.0"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+  "opencv-python (>=4.13.0.92,<5.0.0.0)",
+  "numpy (>=2.4.4,<3.0.0)",
+  "pyautogui (>=0.9.54,<0.10.0)",
+  "keyboard (>=0.13.5,<0.14.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

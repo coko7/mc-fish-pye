@@ -1,5 +1,5 @@
 from pynput.mouse import Listener
-
+from pynput import mouse
 
 click_hist = [];
 

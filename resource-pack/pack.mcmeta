@@ -1,7 +1,8 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "Designed for futuristic fishing! Made for 1.21"
+    "description": "Designed for futuristic fishing! Made for 1.21",
+    "min_format": 84,
+    "max_format": 999
   },
   "language": {
     "en_db": {
